@@ -21,4 +21,4 @@ I make sure checkbox "${BACON_START_CHECK}" is selected
     Checkbox Should Be Selected          ${BACON_START_CHECK}
 
 Then I should receive a text that starts with ${BACON_START}  
-    Element Should Contain               ${PARAGRAPH}            ${BACON_START}   
+    Element Should Contain          ${PARAGRAPH}           ${BACON_START}         

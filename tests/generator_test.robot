@@ -14,7 +14,7 @@ ${DEFAULT_PARAG}     1       # default paragraph has only 1 extra. 1 here so cac
 ${BIG_NUMBER_PARAG}  105
 ${BIG_NUMBER_CUT}    10
 ${BACON_START}       Bacon ipsum dolor amet
-${PARAGRAPH}         //p
+
 
 *** Test Cases ***
 Test case 01 - Specific number of paragraphs 

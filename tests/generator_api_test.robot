@@ -22,7 +22,7 @@ Test case 02 - No number of paragraphs given
     ${NUMBER_COMMAS}=  	    Get Count 	           ${BODY} 	                    ","    
     Should Be True          ${NUMBER_COMMAS}+1 == ${DEFAULT_NUMBER}   
 
-Test case 03 - No number of paragraphs given
+Test case 03 - Testing limit of 99 paragraphs
     ${RESPONSE}=            GET  url=https://baconipsum.com/api/?type=all-meat&paras=${BIG_NUMBER}                               expected_status=200
     ${BODY}= 	            Convert to string 	   ${response.content} 	  
     ${NUMBER_COMMAS}=  	    Get Count 	           ${BODY} 	                    ","    
